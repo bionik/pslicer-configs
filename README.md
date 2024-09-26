@@ -1,4 +1,4 @@
-# pslicer-configs
+# k@rsina printers' configs
 
 Macos config directory: `~/Library/Application\ Support/PrusaSlicer/`
 
@@ -8,10 +8,10 @@ Linux (Appimage) config directory: `~/.config/PrusaSlicer-alpha`
 
 Windows config directory: `%appdata%\Roaming\PrusaSlicer`
 
-# setup 
-open PrusaSlicer once and finish the printer setup to create the config folder
-Go to the config directory 
+# Setup 
+Open PrusaSlicer once and finish the printer setup to create the config folder.
 
+Go to the config directory, and then:  
 `rm -R filament print printer sla_print`  
 `git init`  
 `git remote add origin https://github.com/bionik/pslicer-configs.git`  
