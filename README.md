@@ -15,5 +15,6 @@ Go to the config directory, and then:
 `rm -R filament print printer sla_print`  
 `git init`  
 `git remote add origin https://github.com/bionik/pslicer-configs.git`  
+OR WITH SSH: `git remote add origin git@github.com:bionik/pslicer-configs.git`  
 `git fetch`  
 `git pull origin main`  
